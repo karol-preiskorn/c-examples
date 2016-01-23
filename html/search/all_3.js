@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['ile_5fobiektow',['ile_obiektow',['../classlotnisko_a173cdcb79eeca25271f07448e43ffe32.html#a173cdcb79eeca25271f07448e43ffe32',1,'lotnisko::ile_obiektow()'],['../p3-lotnisko_8cpp_ae9a2e7f2a0d8ab40007b80a6596a15f5.html#ae9a2e7f2a0d8ab40007b80a6596a15f5',1,'ile_obiektow():&#160;p3-lotnisko.cpp']]],
-  ['ile_5fobiektow_5ffunkcja',['ile_obiektow_funkcja',['../classlotnisko_a0352211715cee68ba9bb2ed73acce190.html#a0352211715cee68ba9bb2ed73acce190',1,'lotnisko']]],
-  ['istestpr',['isTestpr',['../classlotnisko_abbcaa22aff268e1468e0787b01e3d88c.html#abbcaa22aff268e1468e0787b01e3d88c',1,'lotnisko']]]
+  ['getdlugosc',['getDlugosc',['../classsamolot_aa9266a5d72478b54b58aaa4467e0aa3d.html#aa9266a5d72478b54b58aaa4467e0aa3d',1,'samolot']]],
+  ['getliczbapasazerow',['getLiczbaPasazerow',['../classsamolot_ae14dfcd321110f325dac70d9d7a059ce.html#ae14dfcd321110f325dac70d9d7a059ce',1,'samolot']]],
+  ['getmaxliczbapasazerow',['getMaxLiczbaPasazerow',['../classsamolot_a97a2092c24ecb995dd945b391d3ce9c7.html#a97a2092c24ecb995dd945b391d3ce9c7',1,'samolot']]],
+  ['getnazwa',['getNazwa',['../classsamolot_ab93d8472b818dc1b154426ddc051e1ce.html#ab93d8472b818dc1b154426ddc051e1ce',1,'samolot']]],
+  ['getwaga',['getWaga',['../classsamolot_afe03ced4f56b61be4345d0313a867553.html#afe03ced4f56b61be4345d0313a867553',1,'samolot']]]
 ];

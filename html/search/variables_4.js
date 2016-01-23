@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nazwa',['nazwa',['../classsamolot_affff8a353b7967ac4161d0e9f6a0d0ee.html#affff8a353b7967ac4161d0e9f6a0d0ee',1,'samolot']]]
+  ['liczba_5fpasazerow',['liczba_pasazerow',['../classsamolot_a5cca10c0fa9e593be38e342c24e58d04.html#a5cca10c0fa9e593be38e342c24e58d04',1,'samolot']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['samolot1',['samolot1',['../classlotnisko_a2959870cfe60e18190e791e216b269eb.html#a2959870cfe60e18190e791e216b269eb',1,'lotnisko']]],
-  ['samolot2',['samolot2',['../classlotnisko_ab96e86494805389710bc9f3c4bb99e92.html#ab96e86494805389710bc9f3c4bb99e92',1,'lotnisko']]]
+  ['max_5fairplain',['max_airplain',['../classlotnisko_abbdd2a778f371c76efa73570905f2bd3.html#abbdd2a778f371c76efa73570905f2bd3',1,'lotnisko']]],
+  ['max_5fliczba_5fpasazerow',['max_liczba_pasazerow',['../classsamolot_a870a4e7da17bd435ec365cea413e5741.html#a870a4e7da17bd435ec365cea413e5741',1,'samolot']]],
+  ['max_5fpassengers',['max_passengers',['../classlotnisko_a3f2ecfa09a0ea71f58686937c5f46b57.html#a3f2ecfa09a0ea71f58686937c5f46b57',1,'lotnisko']]]
 ];

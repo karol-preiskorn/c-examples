@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['getileobiektow',['getIleObiektow',['../classlotnisko_a6eaa8363fb6316773e9bd509116f1987.html#a6eaa8363fb6316773e9bd509116f1987',1,'lotnisko']]]
+  ['addnewpassenger',['addNewPassenger',['../classlotnisko_adcb1034d4bb8c435fb1adf1da9a8491a.html#adcb1034d4bb8c435fb1adf1da9a8491a',1,'lotnisko']]],
+  ['awionetka',['awionetka',['../classawionetka_a9967ce16597946e6aa210a292822018f.html#a9967ce16597946e6aa210a292822018f',1,'awionetka']]]
 ];

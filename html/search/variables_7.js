@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['waga',['waga',['../classsamolot_a517a0bd7c78159a33ffeb87c1c107dbf.html#a517a0bd7c78159a33ffeb87c1c107dbf',1,'samolot::waga()'],['../classawionetka_a64cec8a061bd99fa37a5773cdf2a0db5.html#a64cec8a061bd99fa37a5773cdf2a0db5',1,'awionetka::waga()']]]
+  ['passengers',['passengers',['../classlotnisko_a200fd1ce4a5ec7b22750194c4fa04b45.html#a200fd1ce4a5ec7b22750194c4fa04b45',1,'lotnisko']]]
 ];

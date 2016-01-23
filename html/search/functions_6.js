@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zatankuj',['zatankuj',['../classsamolot_a667637ef1f66c27db4d99238fa5a73d0.html#a667637ef1f66c27db4d99238fa5a73d0',1,'samolot']]]
+  ['przyjmij_5fpasazerow',['przyjmij_pasazerow',['../classsamolot_a3a70ab4cf67818dbfa23eeba5dc41fc9.html#a3a70ab4cf67818dbfa23eeba5dc41fc9',1,'samolot']]]
 ];

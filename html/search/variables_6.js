@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['testpr',['TESTPR',['../classlotnisko_a5a94e71020a56a478dc7f61eb4cf70ea.html#a5a94e71020a56a478dc7f61eb4cf70ea',1,'lotnisko']]]
+  ['nazwa',['nazwa',['../classsamolot_affff8a353b7967ac4161d0e9f6a0d0ee.html#affff8a353b7967ac4161d0e9f6a0d0ee',1,'samolot']]]
 ];

@@ -40,6 +40,9 @@ private:
 	int dlugosc;
 
 public:
+	samolot() {
+		std::cout << "Konstruktor samolot called" << endl;
+	}
 	bool startuj();
 	bool laduj();
 	bool zatankuj();
@@ -91,9 +94,9 @@ public:
  */
 class awionetka: public samolot {
 public:
-	void awionetka() {
-		samolot::setNazwa("Jumbojet");
-		samolot::setMaxLiczbaPasazerow(1000);
+	awionetka() {
+		samolot::setNazwa("Awonetka typu 1");
+		samolot::setMaxLiczbaPasazerow(10);
 		samolot::setLiczbaPasazerow(5);
 		samolot::zatankuj();
 	}
@@ -105,34 +108,32 @@ public:
  */
 class jumbojet: public samolot {
 public:
-	void jumbojet() {
+	jumbojet() {
 		samolot::setNazwa("Jumbojet");
 		samolot::setMaxLiczbaPasazerow(1000);
 		samolot::setLiczbaPasazerow(5);
 	}
+
 };
 
 /**
  *
  */
 class lotnisko {
-public:
-	static int count_airplain = 100;
-	static int max_airplain = 500;
-	static int max_passengers = 10000;
-
+private:
+	const int max_airplain = 500;
+	const int max_passengers = 10000;
+	static int ilosc_lotnisk;
 	int airplains;
 	int passengers;
+	static int count_airplain;
+	bool TESTPR;
+public:
 
-	samolot **samolot;
+	samolot samolot1;
 
-	static bool TESTPR = true;
-
-	lotnisko();
-	~lotnisko();
-
-	bool isTestpr() const {
-		return TESTPR;
+	bool getTestpr() {
+		return (TESTPR);
 	}
 
 	void setTestpr(bool testpr = true) {
@@ -142,21 +143,22 @@ public:
 	bool addNewPassenger(int p_passengers) {
 		if (passengers += p_passengers <= max_passengers) {
 			passengers += p_passengers;
-			return true;
+			return (true);
 		} else {
-			return false;
+			return (false);
 		}
 	}
 
 	/**
 	 *
 	 */
-	lotnisko::lotnisko() {
-		if (TESTPR == true) {
-			std::cout << "Konstruktor samolot2" << endl;
+	lotnisko() {
+		setTestpr(true);
+		if (getTestpr() == true) {
+			std::cout << "Konstruktor lotnisko called" << endl;
 		}
 
-		samolot = new jumbojet;
+		//samolot = new jumbojet;
 		//samolot1 = new awionetka;
 
 	}
@@ -165,24 +167,28 @@ public:
 	 *
 	 *
 	 */
-	lotnisko::~lotnisko() {
-		if (TESTPR == true) {
-			std::cout << "Destruktor samolot2" << endl;
+	~lotnisko() {
+		if (getTestpr() == true) {
+			std::cout << "Destruktor lotnisko xcalled" << endl;
 		}
 
 	}
 
-}
+};
 
 int ile_obiektow = 3;
 
 /**
+ * main function
  *
  * @return
  */
 int main() {
 	lotnisko okecie;
-	lotnisko.TESTPR = true;
+	okecie.setTestpr(true);
 
-	return 0;
+	samolot s1;
+
+	return (0);
 }
+;

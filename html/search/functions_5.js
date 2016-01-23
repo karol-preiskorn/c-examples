@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['setileobiektow',['setIleObiektow',['../classlotnisko_acc8d446fbee69cb216be7a01d79d5922.html#acc8d446fbee69cb216be7a01d79d5922',1,'lotnisko']]],
-  ['settestpr',['setTestpr',['../classlotnisko_aeb7a2dec8e6f5f340b52ba0f1b9e15c2.html#aeb7a2dec8e6f5f340b52ba0f1b9e15c2',1,'lotnisko']]],
-  ['startuj',['startuj',['../classsamolot_a4d4561672581f88650e6852ccf272fdc.html#a4d4561672581f88650e6852ccf272fdc',1,'samolot']]]
+  ['main',['main',['../p3-lotnisko_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'p3-lotnisko.cpp']]]
 ];
