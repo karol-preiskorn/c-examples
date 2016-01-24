@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['main',['main',['../p3-lotnisko_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'p3-lotnisko.cpp']]]
+  ['przyjmij_5fpasazerow',['przyjmij_pasazerow',['../classsamolot_a3a70ab4cf67818dbfa23eeba5dc41fc9.html#a3a70ab4cf67818dbfa23eeba5dc41fc9',1,'samolot']]]
 ];

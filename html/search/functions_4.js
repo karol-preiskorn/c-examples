@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['laduj',['laduj',['../classsamolot_ab86fed83566fc80650f58c786c56e28d.html#ab86fed83566fc80650f58c786c56e28d',1,'samolot']]],
-  ['lotnisko',['lotnisko',['../classlotnisko_a7dd04d8c1abddea009081b4891734efb.html#a7dd04d8c1abddea009081b4891734efb',1,'lotnisko']]]
+  ['main',['main',['../p3-lotnisko_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'p3-lotnisko.cpp']]]
 ];

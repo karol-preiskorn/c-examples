@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['zatankuj',['zatankuj',['../classsamolot_a667637ef1f66c27db4d99238fa5a73d0.html#a667637ef1f66c27db4d99238fa5a73d0',1,'samolot']]]
+  ['_7elotnisko',['~lotnisko',['../classlotnisko_a0116c20585be939d9d1ebbd13729bf13.html#a0116c20585be939d9d1ebbd13729bf13',1,'lotnisko']]],
+  ['_7esamolot',['~samolot',['../classsamolot_a93ea9b37640f424d7c7dfaddb07c1242.html#a93ea9b37640f424d7c7dfaddb07c1242',1,'samolot']]]
 ];

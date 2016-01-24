@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['samolot',['samolot',['../classsamolot.html',1,'samolot'],['../classlotnisko_a518ca2d359c5b8a188dc11b5f66da704.html#a518ca2d359c5b8a188dc11b5f66da704',1,'lotnisko::samolot()']]],
+  ['samolot',['samolot',['../classsamolot.html',1,'samolot'],['../classsamolot_addfc5ba44d306dde90c33dd5e6a18a2b.html#addfc5ba44d306dde90c33dd5e6a18a2b',1,'samolot::samolot()']]],
+  ['samolot1',['samolot1',['../classlotnisko_a762c895d5217ec7bdaa726c267ea5e74.html#a762c895d5217ec7bdaa726c267ea5e74',1,'lotnisko']]],
   ['setdlugosc',['setDlugosc',['../classsamolot_a16a1f5278a5517c8370d37198196d513.html#a16a1f5278a5517c8370d37198196d513',1,'samolot']]],
   ['setliczbapasazerow',['setLiczbaPasazerow',['../classsamolot_aba4c1a429f8a529fed515495a6573d0f.html#aba4c1a429f8a529fed515495a6573d0f',1,'samolot']]],
   ['setmaxliczbapasazerow',['setMaxLiczbaPasazerow',['../classsamolot_a3ee6668ec9e1a830ec137812a9ae8159.html#a3ee6668ec9e1a830ec137812a9ae8159',1,'samolot']]],

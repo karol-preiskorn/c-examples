@@ -10,7 +10,7 @@ var indexSectionsWithContent =
   0: "acdgijlmnpstwz~",
   1: "ajls",
   2: "p",
-  3: "agijlmpsz~",
+  3: "agjlmpsz~",
   4: "acdilmnpstw"
 };
 

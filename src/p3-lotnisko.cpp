@@ -23,7 +23,6 @@
 
 #include <iostream>
 #include <string>
-#include <iostream>
 
 using namespace std;
 
@@ -38,14 +37,45 @@ private:
 	int liczba_pasazerow; // liczba pasażerów w samolocie
 	int waga;
 	int dlugosc;
+	int paliwo;
+	int nr_samolotu;
 
 public:
+	static int counter;
 	samolot() {
 		std::cout << "Konstruktor samolot called" << endl;
+		max_liczba_pasazerow = 100;
+		nazwa = "Samolot";
+		this->dlugosc = 100;
+		this->paliwo = 0;
+		this->waga = 10;
+		this->liczba_pasazerow = 5;
+		this->nr_samolotu = samolot::counter++;
+
 	}
+
+	/**
+	 * destruktor
+	 */
+	~samolot() {
+		std::cout << "Destruktor samolot called" << endl;
+
+	}
+
+	void print() {
+		std::cout << "Samolot " << this->nazwa << ", numer [" << this->nr_samolotu << "], liczba_pasazerow " << this->liczba_pasazerow << endl;
+		std::cout << "   pasazerow " << this->liczba_pasazerow << "osob " << endl;
+		std::cout << "   waga      " << this->waga << "kg" << endl;
+		std::cout << "   paliwo    " << this->paliwo << "ton" << endl;
+		std::cout << "   dlugosc   " << this->dlugosc << "m" << endl;
+	}
+
 	bool startuj();
 	bool laduj();
-	bool zatankuj();
+	int zatankuj(int p_ilosc) {
+		paliwo += p_ilosc;
+		return (paliwo);
+	}
 	bool przyjmij_pasazerow();
 
 	int getDlugosc() const {
@@ -87,6 +117,14 @@ public:
 	void setWaga(int waga) {
 		this->waga = waga;
 	}
+
+	int getPaliwo() const {
+		return paliwo;
+	}
+
+	void setPaliwo(int paliwo) {
+		this->paliwo = paliwo;
+	}
 };
 
 /**
@@ -95,10 +133,10 @@ public:
 class awionetka: public samolot {
 public:
 	awionetka() {
-		samolot::setNazwa("Awonetka typu 1");
+		samolot::setNazwa("Awionetka typu 1");
 		samolot::setMaxLiczbaPasazerow(10);
 		samolot::setLiczbaPasazerow(5);
-		samolot::zatankuj();
+		samolot::zatankuj(1000);
 	}
 };
 
@@ -109,7 +147,7 @@ public:
 class jumbojet: public samolot {
 public:
 	jumbojet() {
-		samolot::setNazwa("Jumbojet");
+		samolot::setNazwa("JumboJet");
 		samolot::setMaxLiczbaPasazerow(1000);
 		samolot::setLiczbaPasazerow(5);
 	}
@@ -121,16 +159,27 @@ public:
  */
 class lotnisko {
 private:
-	const int max_airplain = 500;
-	const int max_passengers = 10000;
+	static const int max_airplain = 500;
+	static const int max_passengers = 10000;
 	static int ilosc_lotnisk;
 	int airplains;
 	int passengers;
 	static int count_airplain;
 	bool TESTPR;
+	static int counter;
+	string nazwa;
+	samolot *samolot_prt;
 public:
+	/**
+	 * Podobiekt dynamiczny oznacza, że polem obiektu głównego jest wskaźnik na podobiekt (do celów tego projektu w konstruktorze domyślnym ma być inicjowany na zero).
+	 * Odwzorowanie powinno być możliwie realistyczne - dla skomplikowanych obiektów odpowiednio uproszczone. Zaprojektowane klasy będą wykorzystywane w następnym projekcie –
+	 * ewentualnie będą modyfikowane.
+	 */
 
-	samolot samolot1;
+	samolot *setSamolotPtr(samolot * p_ptr) {
+		this->samolot_prt = p_ptr;
+		return (this->samolot_prt);
+	}
 
 	bool getTestpr() {
 		return (TESTPR);
@@ -154,13 +203,11 @@ public:
 	 */
 	lotnisko() {
 		setTestpr(true);
+
 		if (getTestpr() == true) {
 			std::cout << "Konstruktor lotnisko called" << endl;
 		}
-
-		//samolot = new jumbojet;
-		//samolot1 = new awionetka;
-
+		lotnisko::counter++;
 	}
 
 	/**
@@ -169,26 +216,79 @@ public:
 	 */
 	~lotnisko() {
 		if (getTestpr() == true) {
-			std::cout << "Destruktor lotnisko xcalled" << endl;
+			std::cout << "Destruktor lotnisko called" << endl;
+			//lotnisko::counter++;
 		}
 
 	}
 
+	int getCounter() {
+		return ((int) lotnisko::counter);
+	}
+
+	void setCounter(int p_counter) {
+		counter = p_counter;
+	}
+
+	void printCounter() {
+		std::cout << "Lotnisko licznik samolotów na lotnisku " << getNazwa() << " " << getCounter() << endl;
+	}
+
+	const string& getNazwa() {
+		return nazwa;
+	}
+
+	void setNazwa(const string& nazwa) {
+		this->nazwa = nazwa;
+	}
+
+	int getPassengers() const {
+		return passengers;
+	}
+
+	void setPassengers(int passengers) {
+		this->passengers = passengers;
+	}
+
+	samolot* getSamolotPrt() {
+		return samolot_prt;
+	}
+
+	void setSamolotPrt(samolot* samolotPrt) {
+		samolot_prt = samolotPrt;
+	}
 };
 
 int ile_obiektow = 3;
+int lotnisko::counter = 0;
+int samolot::counter = 0;
 
 /**
  * main function
+ *
+ * @todo test units
+ * @todo list of samolot
  *
  * @return
  */
 int main() {
 	lotnisko okecie;
+	okecie.setNazwa("Okęcie");
 	okecie.setTestpr(true);
+	okecie.setCounter(2);
+	okecie.printCounter();
 
-	samolot s1;
+	awionetka a1;
+	a1.print();
+
+	jumbojet j1;
+	j1.print();
+	j1.zatankuj(200);
+	j1.setLiczbaPasazerow(24);
+	j1.print();
+
+	okecie.printCounter();
 
 	return (0);
 }
-;
+
