@@ -282,7 +282,9 @@ int main() {
 	a1.print();
 
 	jumbojet j1;
+	j1.setNazwa("Jakiś")
 	j1.print();
+
 	j1.zatankuj(200);
 	j1.setLiczbaPasazerow(24);
 	j1.print();

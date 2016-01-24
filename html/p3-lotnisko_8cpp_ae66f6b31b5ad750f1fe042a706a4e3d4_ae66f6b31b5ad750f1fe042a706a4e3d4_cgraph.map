@@ -1,3 +1,10 @@
 <map id="main" name="main">
-<area shape="rect" id="node2" href="$classlotnisko_aeb7a2dec8e6f5f340b52ba0f1b9e15c2.html#aeb7a2dec8e6f5f340b52ba0f1b9e15c2" title="lotnisko::setTestpr" alt="" coords="104,5,235,32"/>
+<area shape="rect" id="node2" href="$classlotnisko_aac9699613c37b96a745895e274968de3.html#aac9699613c37b96a745895e274968de3" title="lotnisko::setNazwa" alt="" coords="135,5,270,32"/>
+<area shape="rect" id="node3" href="$classlotnisko_aeb7a2dec8e6f5f340b52ba0f1b9e15c2.html#aeb7a2dec8e6f5f340b52ba0f1b9e15c2" title="lotnisko::setTestpr" alt="" coords="137,56,268,83"/>
+<area shape="rect" id="node4" href="$classlotnisko_a4a12e492bb193f6b8117a3a5b7f4f0b9.html#a4a12e492bb193f6b8117a3a5b7f4f0b9" title="lotnisko::setCounter" alt="" coords="133,107,272,133"/>
+<area shape="rect" id="node5" href="$classlotnisko_a50eb25c928e06256d4a57437c0091234.html#a50eb25c928e06256d4a57437c0091234" title="lotnisko::printCounter" alt="" coords="129,157,276,184"/>
+<area shape="rect" id="node6" href="$classsamolot_a52ca52d3fe61d17459d6924def3572f8.html#a52ca52d3fe61d17459d6924def3572f8" title="samolot::print" alt="" coords="152,208,253,235"/>
+<area shape="rect" id="node7" href="$classsamolot_a950f1b1340ca72f9cde875a51b5ba78a.html#a950f1b1340ca72f9cde875a51b5ba78a" title="samolot::setNazwa" alt="" coords="135,259,270,285"/>
+<area shape="rect" id="node8" href="$classsamolot_a3eba0ef2ef0e2a06f9127c956dac0aaa.html#a3eba0ef2ef0e2a06f9127c956dac0aaa" title="samolot::zatankuj" alt="" coords="140,309,265,336"/>
+<area shape="rect" id="node9" href="$classsamolot_aba4c1a429f8a529fed515495a6573d0f.html#aba4c1a429f8a529fed515495a6573d0f" title="samolot::setLiczbaPasazerow" alt="" coords="104,360,301,387"/>
 </map>
